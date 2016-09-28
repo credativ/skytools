@@ -1,5 +1,5 @@
 
-\set ECHO off
+\set ECHO none
 
 set log_error_verbosity = 'terse';
 set client_min_messages = 'fatal';

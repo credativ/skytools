@@ -1,3 +1,3 @@
-\set ECHO off
+\set ECHO none
 \i structure/install.sql
 
