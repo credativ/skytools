@@ -19,7 +19,11 @@
 #include <postgres.h>
 #include <lib/stringinfo.h>
 #include <mb/pg_wchar.h>
+#if PG_VERSION_NUM >= 90600
+#include <common/keywords.h>
+#else
 #include <parser/keywords.h>
+#endif
 #include <utils/memutils.h>
 
 #include "stringutil.h"
